@@ -13,13 +13,19 @@ import lombok.Data;
 @Table(value = "t_options", pk = "name")
 public class Options extends ActiveRecord {
 
-    // 配置名称
+    /**
+     *  配置名称
+     */
     private String name;
 
-    // 配置值
+    /**
+     *  配置值
+     */
     private String value;
 
-    // 配置描述
+    /**
+     *  配置描述
+     */
     private String description;
 
 }

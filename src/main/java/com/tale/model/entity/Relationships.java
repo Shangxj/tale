@@ -13,10 +13,14 @@ import lombok.Data;
 @Table(value = "t_relationships", pk = "mid")
 public class Relationships extends ActiveRecord {
 
-    // 内容主键
+    /**
+     *  内容主键
+     */
     private Integer cid;
 
-    // 项目主键
+    /**
+     *  项目主键
+     */
     private Integer mid;
 
 }

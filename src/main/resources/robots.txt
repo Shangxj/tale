@@ -1,1 +1,3 @@
-Disallow: /admin/
+#网站收录配置
+User-agent:*
+Disallow:/admin/
